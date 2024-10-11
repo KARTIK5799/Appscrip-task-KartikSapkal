@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+    background-color: var(--primary-color);
+  }
+  
+  .logoContainer {
+    flex: 1;
+  }
+  
+  .nav {
+    flex: 2;
+  }
+  
+  .nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+  }
+  
+  .nav ul li {
+    margin-left: 20px;
+  }
+  
+  .nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav ul li a:hover {
+    color: var(--secondary-color);
+  }
+  
