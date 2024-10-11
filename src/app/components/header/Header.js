@@ -12,7 +12,7 @@ export default function Header() {
       <div className={styles.logoContainer}>
         <Link href="/">
           <Image
-            src="/Logo.png"
+            src="/Logo.svg"
             alt="Appscribe Logo"
             width={150}
             height={150}
